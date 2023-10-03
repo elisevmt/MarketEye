@@ -1,0 +1,39 @@
+
+BinanceAccount:
+  APIKey: ""
+  APISecret: ""
+
+Arbitration:
+  MaxDepth: 7
+  MinimalMargin: 0
+  MinInvesting: 0
+  MaxInvesting: 5000
+
+GarantexAPI:
+  PublicKey: "=="
+  PrivateKey: "="
+  UID: ""
+
+System:
+  MaxGoRoutines: 15000
+
+TerminalAccess:
+  APIKey: ""
+
+Server:
+  AppVersion: "1.0.0"
+  Host: "0.0.0.0"
+  Port: "8091"
+
+
+logger:
+  Level: ""
+  SkipFrameCount: 1
+  InFile: 0
+  FilePath: "log.txt"
+  InTG: 1
+  ChatID: ""
+  TGToken: "-"
+  AlertUsers: ""
+
+

@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  market:
+    ports:
+      - "8091:8091"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    container_name: market_eye
+    network_mode: "host"
